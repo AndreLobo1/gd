@@ -42,7 +42,7 @@ Antes de iniciar os testes, é necessário configurar adequadamente o ambiente d
 | 10  | Teste de Colisões no Jogo                           | O jogo está em andamento e o jogador está se movendo   | Tentar atravessar as estruturas do mapa como prédios, árvores, postes, bancos, lixos, NPCs e demais estruturas                | O personagem não deve atravessar nenhum item do cenário, sendo barrado caso chegue perto demais. Ele deve passar por trás de determinados objetos como árvores ou postes, mas não deve passar por trás de suas bases que os ligam ao chão. |
 | 11  | Teste de Entrada em Diferentes Ambientes           | O jogo está em andamento                               | Mover o personagem em direção à porta do escritório Unilever, salão Clear, sorveteria Kibom e lavanderia Omo                | O personagem deve entrar nos ambientes normalmente.                                                   |
 
-## Resultados dos Testes
+### Resultados dos Testes
 
 ### Teste de Início do Jogo
 - O botão "play" respondeu corretamente ao ser clicado, e o jogador foi redirecionado para a tela de controles do jogo conforme esperado.
@@ -77,7 +77,7 @@ Antes de iniciar os testes, é necessário configurar adequadamente o ambiente d
 ### Teste de Entrada em Diferentes Ambientes
 - A entrada nos diferentes ambientes do jogo foi bem-sucedida, com o personagem entrando nos ambientes sem dificuldades.
 
-##  Problemas Encontrados
+###  Problemas Encontrados
 
 ### Problema de Colisão com Estruturas do Mapa
 - **Descrição:** Durante o teste de colisões no jogo, o personagem foi capaz de atravessar certas estruturas do mapa, como árvores, arbustos e NPCs.
@@ -91,7 +91,7 @@ Antes de iniciar os testes, é necessário configurar adequadamente o ambiente d
 - **Status:** Pendente de correção.
 - **Observações:** Parece haver problemas com a foto do NPC, resultando em comportamento não esperado do mesmo.
 
-## Conclusão
+### Conclusão
 Os casos de teste apresentados nesta seção ofereceram uma visão abrangente do funcionamento do jogo, fornecendo feedbacks valiosos para o aprimoramento contínuo do projeto. Embora tenhamos alcançado sucesso em muitos testes, alguns problemas foram identificados durante o processo, destacando áreas que podem exigir ajustes adicionais.
 
 Durante os testes, observamos problemas relacionados à colisão com estruturas do mapa e à exibição inadequada da foto do NPC no escritório Unilever. Esses problemas são considerados de gravidade média e baixa, respectivamente, e estão pendentes de correção em futuras iterações do desenvolvimento.
