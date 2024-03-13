@@ -77,7 +77,7 @@ Antes de iniciar os testes, é necessário configurar adequadamente o ambiente d
 ### Teste de Entrada em Diferentes Ambientes
 - A entrada nos diferentes ambientes do jogo foi bem-sucedida, com o personagem entrando nos ambientes sem dificuldades.
 
-###  Problemas Encontrados
+##  Problemas Encontrados
 
 ### Problema de Colisão com Estruturas do Mapa
 - **Descrição:** Durante o teste de colisões no jogo, o personagem foi capaz de atravessar certas estruturas do mapa, como árvores, arbustos e NPCs.
@@ -91,7 +91,7 @@ Antes de iniciar os testes, é necessário configurar adequadamente o ambiente d
 - **Status:** Pendente de correção.
 - **Observações:** Parece haver problemas com a foto do NPC, resultando em comportamento não esperado do mesmo.
 
-### Conclusão
+## Conclusão
 Os casos de teste apresentados nesta seção ofereceram uma visão abrangente do funcionamento do jogo, fornecendo feedbacks valiosos para o aprimoramento contínuo do projeto. Embora tenhamos alcançado sucesso em muitos testes, alguns problemas foram identificados durante o processo, destacando áreas que podem exigir ajustes adicionais.
 
 Durante os testes, observamos problemas relacionados à colisão com estruturas do mapa e à exibição inadequada da foto do NPC no escritório Unilever. Esses problemas são considerados de gravidade média e baixa, respectivamente, e estão pendentes de correção em futuras iterações do desenvolvimento.
