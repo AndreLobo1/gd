@@ -42,7 +42,7 @@ Antes de iniciar os testes, é necessário configurar adequadamente o ambiente d
 | 10  | Teste de Colisões no Jogo                           | O jogo está em andamento e o jogador está se movendo   | Tentar atravessar as estruturas do mapa como prédios, árvores, postes, bancos, lixos, NPCs e demais estruturas                | O personagem não deve atravessar nenhum item do cenário, sendo barrado caso chegue perto demais. Ele deve passar por trás de determinados objetos como árvores ou postes, mas não deve passar por trás de suas bases que os ligam ao chão. |
 | 11  | Teste de Entrada em Diferentes Ambientes           | O jogo está em andamento                               | Mover o personagem em direção à porta do escritório Unilever, salão Clear, sorveteria Kibom e lavanderia Omo                | O personagem deve entrar nos ambientes normalmente.                                                   |
 
-### Resultados dos Testes
+## Resultados dos Testes
 
 ### Teste de Início do Jogo
 - O botão "play" respondeu corretamente ao ser clicado, e o jogador foi redirecionado para a tela de controles do jogo conforme esperado.
