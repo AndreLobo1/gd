@@ -5,7 +5,7 @@ Os casos de teste são organizados em uma tabela que contém informações sobre
 
 Esses casos de teste são essenciais para garantir que o jogo atenda aos requisitos estabelecidos e funcione corretamente em diferentes cenários. Eles fornecem uma estrutura sistemática para identificar e corrigir possíveis falhas ou problemas de desempenho, garantindo uma experiência de jogo suave e satisfatória para os usuários finais.
 
-### Configuração de Ambiente de Teste
+# Configuração de Ambiente de Teste
 
 Antes de iniciar os testes, é necessário configurar adequadamente o ambiente de teste para garantir resultados precisos e reprodutíveis. Esta seção descreve os detalhes sobre a configuração do ambiente de teste, incluindo hardware, software e outras configurações relevantes.
 
