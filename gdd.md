@@ -26,7 +26,7 @@ Antes de iniciar os testes, é necessário configurar adequadamente o ambiente d
 - **Navegador:** Chrome
 - **Versão:** 122.0.6261.112 (Compilação oficial) (64 bits)
 
-## 5.1. Casos de Teste
+## Testes
 
 | #   | Título do Caso de Teste                            | Pré-condição                                            | Descrição do Teste                                                                                                           | Pós-condição                                                                                          |
 | --- | --------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
@@ -44,37 +44,37 @@ Antes de iniciar os testes, é necessário configurar adequadamente o ambiente d
 
 ### Resultados dos Testes
 
-### Teste de Início do Jogo
+### 1. Teste de Início do Jogo
 - O botão "play" respondeu corretamente ao ser clicado, e o jogador foi redirecionado para a tela de controles do jogo conforme esperado.
 
-### Teste de Transição para Tela de Escolha de Personagem
+### 2. Teste de Transição para Tela de Escolha de Personagem
 - O botão "play" funcionou corretamente, enviando o jogador para a tela de escolha de personagem após ser clicado.
 
-### Teste de Escolha de Personagem
+### 3. Teste de Escolha de Personagem
 - A escolha de personagem funcionou como esperado, com os personagens sendo destacados e o jogador sendo enviado para a tela do jogo com o personagem escolhido.
 
-### Teste de Trilha Sonora
+### 4. Teste de Trilha Sonora
 - A trilha sonora do jogo tocou continuamente enquanto o jogador estava na aba do jogo.
 
-### Teste de Movimentação do Personagem
+### 5. Teste de Movimentação do Personagem
 - A movimentação do personagem funcionou conforme esperado, com o personagem respondendo às teclas direcionais do teclado e o som de passos sendo ativado durante o movimento.
 
-### Teste de Interação com NPCs
+### 6. Teste de Interação com NPCs
 - As interações com os NPCs foram parcialmente bem-sucedidas. O NPC da entrada do escritório está com a foto ao lado do balão de fala cortada, além disso, o primeiro NPC pode ser atravessado pelo jogador.
 
-### Teste de Transição ao Vencer o Minigame
+### 7. Teste de Transição ao Vencer o Minigame
 - Após vencer o minigame, o jogador foi redirecionado para a porta de entrada dentro do escritório Unilever conforme o esperado.
 
-### Teste de Transição ao Perder o Minigame
+### 8. Teste de Transição ao Perder o Minigame
 - Ao perder o minigame, o jogo exibiu corretamente a tela de gameover, permitindo que o jogador recomeçasse o jogo.
 
-### Teste de Recomeçar o Jogo Após Gameover
+### 9. Teste de Recomeçar o Jogo Após Gameover
 - O botão "recomeçar" na tela de gameover funcionou corretamente, permitindo que o jogador recomeçasse o minigame.
 
-### Teste de Colisões no Jogo
+### 10. Teste de Colisões no Jogo
 - Durante o teste, foram encontrados alguns problemas com colisões inadequadas do personagem com certas estruturas do mapa, que precisam ser corrigidos.
 
-### Teste de Entrada em Diferentes Ambientes
+### 11. Teste de Entrada em Diferentes Ambientes
 - A entrada nos diferentes ambientes do jogo foi bem-sucedida, com o personagem entrando nos ambientes sem dificuldades.
 
 ###  Problemas Encontrados
