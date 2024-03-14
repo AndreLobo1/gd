@@ -1,9 +1,12 @@
 ## 5.1. Casos de Teste
+
 Nesta seção, apresentamos uma série de casos de teste detalhados que foram desenvolvidos para avaliar o funcionamento e a integração das partes do jogo. Cada caso de teste é projetado para testar uma funcionalidade específica do jogo, desde a inicialização até a interação com personagens e transições entre telas.
+
+Além disso, os casos de teste abordam a configuração adequada do ambiente de teste, garantindo resultados precisos e consistentes. Também destacamos possíveis melhorias futuras identificadas durante o processo de teste, visando aprimorar a qualidade e a experiência do jogo para os usuários finais.
 
 Os casos de teste são organizados em uma tabela que contém informações sobre a pré-condição, a descrição do teste e a pós-condição. Cada caso de teste é numerado para facilitar a referência e a rastreabilidade durante o processo de teste.
 
-Esses casos de teste são essenciais para garantir que o jogo atenda aos requisitos estabelecidos e funcione corretamente em diferentes cenários. Eles fornecem uma estrutura sistemática para identificar e corrigir possíveis falhas ou problemas de desempenho, garantindo uma experiência de jogo suave e satisfatória para os usuários finais.
+Esses casos de teste desempenham um papel fundamental na garantia da qualidade do jogo, ajudando a identificar e corrigir problemas antes do lançamento, bem como sugerindo melhorias para futuras iterações do desenvolvimento.
 
 ### Configuração de Ambiente de Teste
 
