@@ -68,37 +68,37 @@ Ao cumprir esses requisitos, você estará pronto para configurar um ambiente de
 
 ### Resultados dos Testes
 
-### Teste de Início do Jogo
+### 1. Teste de Início do Jogo
 - O botão "play" respondeu corretamente ao ser clicado, e o jogador foi redirecionado para a tela de controles do jogo conforme esperado.
 
-### Teste de Transição para Tela de Escolha de Personagem
+### 2. Teste de Transição para Tela de Escolha de Personagem
 - O botão "play" funcionou corretamente, enviando o jogador para a tela de escolha de personagem após ser clicado.
 
-### Teste de Escolha de Personagem
+### 3. Teste de Escolha de Personagem
 - A escolha de personagem funcionou como esperado, com os personagens sendo destacados e o jogador sendo enviado para a tela do jogo com o personagem escolhido.
 
-### Teste de Trilha Sonora
+### 4. Teste de Trilha Sonora
 - A trilha sonora do jogo tocou continuamente enquanto o jogador estava na aba do jogo.
 
-### Teste de Movimentação do Personagem
+### 5. Teste de Movimentação do Personagem
 - A movimentação do personagem funcionou conforme esperado, com o personagem respondendo às teclas direcionais do teclado e o som de passos sendo ativado durante o movimento.
 
-### Teste de Interação com NPCs
+### 6. Teste de Interação com NPCs
 - As interações com os NPCs foram parcialmente bem-sucedidas. O NPC da entrada do escritório está com a foto ao lado do balão de fala cortada, além disso, o primeiro NPC pode ser atravessado pelo jogador.
 
-### Teste de Transição ao Vencer o Minigame
+### 7. Teste de Transição ao Vencer o Minigame
 - Após vencer o minigame, o jogador foi redirecionado para a porta de entrada dentro do escritório Unilever conforme o esperado.
 
-### Teste de Transição ao Perder o Minigame
+### 8. Teste de Transição ao Perder o Minigame
 - Ao perder o minigame, o jogo exibiu corretamente a tela de gameover, permitindo que o jogador recomeçasse o jogo.
 
-### Teste de Recomeçar o Jogo Após Gameover
+### 9. Teste de Recomeçar o Jogo Após Gameover
 - O botão "recomeçar" na tela de gameover funcionou corretamente, permitindo que o jogador recomeçasse o minigame.
 
-### Teste de Colisões no Jogo
+### 10. Teste de Colisões no Jogo
 - Durante o teste, foram encontrados alguns problemas com colisões inadequadas do personagem com certas estruturas do mapa, que precisam ser corrigidos.
 
-### Teste de Entrada em Diferentes Ambientes
+### 11. Teste de Entrada em Diferentes Ambientes
 - A entrada nos diferentes ambientes do jogo foi bem-sucedida, com o personagem entrando nos ambientes sem dificuldades.
 
 ###  Problemas Encontrados
@@ -108,12 +108,6 @@ Ao cumprir esses requisitos, você estará pronto para configurar um ambiente de
 - **Gravidade:** Média
 - **Status:** Pendente de correção.
 - **Observações:** Parece haver problemas com as colisões definidas para esses objetos, resultando em comportamento não esperado do personagem.
-
-### Problema de Exibição da Foto do NPC do Escritório Unilever
-- **Descrição:** Durante o teste de colisões no jogo, o NPC apresentou a sua foto ao lado do balão de fala como o esperado, porém a foto está cortada.
-- **Gravidade:** Baixa
-- **Status:** Pendente de correção.
-- **Observações:** Parece haver problemas com a foto do NPC, resultando em comportamento não esperado do mesmo.
 
 ### Conclusão
 Os casos de teste apresentados nesta seção ofereceram uma visão abrangente do funcionamento do jogo, fornecendo feedbacks valiosos para o aprimoramento contínuo do projeto. Embora tenhamos alcançado sucesso em muitos testes, alguns problemas foram identificados durante o processo, destacando áreas que podem exigir ajustes adicionais.
