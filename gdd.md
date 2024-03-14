@@ -7,7 +7,31 @@ Esses casos de teste são essenciais para garantir que o jogo atenda aos requisi
 
 ### Configuração de Ambiente de Teste
 
-Antes de iniciar os testes, é necessário configurar adequadamente o ambiente de teste para garantir resultados precisos e reprodutíveis. Esta seção descreve os detalhes sobre a configuração do ambiente de teste, incluindo hardware, software e outras configurações relevantes.
+Antes de iniciar os testes, é crucial configurar adequadamente o ambiente de teste para garantir resultados precisos e consistentes. Abaixo estão os requisitos básicos necessários para configurar o ambiente de teste para o jogo.
+
+#### Requisitos do Ambiente de Teste:
+
+1. **Computador com Navegador Compatível:**
+   - Certifique-se de ter acesso a um computador que suporte os navegadores modernos, como Google Chrome, Mozilla Firefox, Safari ou Microsoft Edge.
+
+2. **Tela Colorida:**
+   - Utilize um monitor ou tela colorida com boa resolução para visualizar adequadamente o jogo e seus elementos gráficos.
+
+3. **Sistema de Som Funcional:**
+   - Verifique se o dispositivo de teste possui um sistema de som funcional para garantir a reprodução adequada de áudio dentro do jogo.
+
+4. **Habilitar JavaScript no Navegador:**
+   - Certifique-se de que o JavaScript esteja habilitado no navegador utilizado para garantir que o jogo seja executado corretamente.
+
+5. **Compatibilidade com Phaser Framework:**
+   - O ambiente de teste deve suportar o framework Phaser para executar o jogo sem problemas. Certifique-se de que o navegador e o dispositivo atendam aos requisitos mínimos do Phaser.
+
+6. **Espaço em Disco Suficiente:**
+   - Certifique-se de ter espaço em disco adequado disponível para armazenar o jogo e outros recursos necessários para os testes.
+
+Ao cumprir esses requisitos, você estará pronto para configurar um ambiente de teste adequado para realizar testes eficazes no jogo.
+
+###Ambiente de Teste Utilizado
 
 ### Dispositivos de Teste
 
@@ -26,7 +50,7 @@ Antes de iniciar os testes, é necessário configurar adequadamente o ambiente d
 - **Navegador:** Chrome
 - **Versão:** 122.0.6261.112 (Compilação oficial) (64 bits)
 
-## Testes
+## 5.1. Casos de Teste
 
 | #   | Título do Caso de Teste                            | Pré-condição                                            | Descrição do Teste                                                                                                           | Pós-condição                                                                                          |
 | --- | --------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
@@ -44,37 +68,37 @@ Antes de iniciar os testes, é necessário configurar adequadamente o ambiente d
 
 ### Resultados dos Testes
 
-### 1. Teste de Início do Jogo
+### Teste de Início do Jogo
 - O botão "play" respondeu corretamente ao ser clicado, e o jogador foi redirecionado para a tela de controles do jogo conforme esperado.
 
-### 2. Teste de Transição para Tela de Escolha de Personagem
+### Teste de Transição para Tela de Escolha de Personagem
 - O botão "play" funcionou corretamente, enviando o jogador para a tela de escolha de personagem após ser clicado.
 
-### 3. Teste de Escolha de Personagem
+### Teste de Escolha de Personagem
 - A escolha de personagem funcionou como esperado, com os personagens sendo destacados e o jogador sendo enviado para a tela do jogo com o personagem escolhido.
 
-### 4. Teste de Trilha Sonora
+### Teste de Trilha Sonora
 - A trilha sonora do jogo tocou continuamente enquanto o jogador estava na aba do jogo.
 
-### 5. Teste de Movimentação do Personagem
+### Teste de Movimentação do Personagem
 - A movimentação do personagem funcionou conforme esperado, com o personagem respondendo às teclas direcionais do teclado e o som de passos sendo ativado durante o movimento.
 
-### 6. Teste de Interação com NPCs
+### Teste de Interação com NPCs
 - As interações com os NPCs foram parcialmente bem-sucedidas. O NPC da entrada do escritório está com a foto ao lado do balão de fala cortada, além disso, o primeiro NPC pode ser atravessado pelo jogador.
 
-### 7. Teste de Transição ao Vencer o Minigame
+### Teste de Transição ao Vencer o Minigame
 - Após vencer o minigame, o jogador foi redirecionado para a porta de entrada dentro do escritório Unilever conforme o esperado.
 
-### 8. Teste de Transição ao Perder o Minigame
+### Teste de Transição ao Perder o Minigame
 - Ao perder o minigame, o jogo exibiu corretamente a tela de gameover, permitindo que o jogador recomeçasse o jogo.
 
-### 9. Teste de Recomeçar o Jogo Após Gameover
+### Teste de Recomeçar o Jogo Após Gameover
 - O botão "recomeçar" na tela de gameover funcionou corretamente, permitindo que o jogador recomeçasse o minigame.
 
-### 10. Teste de Colisões no Jogo
+### Teste de Colisões no Jogo
 - Durante o teste, foram encontrados alguns problemas com colisões inadequadas do personagem com certas estruturas do mapa, que precisam ser corrigidos.
 
-### 11. Teste de Entrada em Diferentes Ambientes
+### Teste de Entrada em Diferentes Ambientes
 - A entrada nos diferentes ambientes do jogo foi bem-sucedida, com o personagem entrando nos ambientes sem dificuldades.
 
 ###  Problemas Encontrados
@@ -84,6 +108,12 @@ Antes de iniciar os testes, é necessário configurar adequadamente o ambiente d
 - **Gravidade:** Média
 - **Status:** Pendente de correção.
 - **Observações:** Parece haver problemas com as colisões definidas para esses objetos, resultando em comportamento não esperado do personagem.
+
+### Problema de Exibição da Foto do NPC do Escritório Unilever
+- **Descrição:** Durante o teste de colisões no jogo, o NPC apresentou a sua foto ao lado do balão de fala como o esperado, porém a foto está cortada.
+- **Gravidade:** Baixa
+- **Status:** Pendente de correção.
+- **Observações:** Parece haver problemas com a foto do NPC, resultando em comportamento não esperado do mesmo.
 
 ### Conclusão
 Os casos de teste apresentados nesta seção ofereceram uma visão abrangente do funcionamento do jogo, fornecendo feedbacks valiosos para o aprimoramento contínuo do projeto. Embora tenhamos alcançado sucesso em muitos testes, alguns problemas foram identificados durante o processo, destacando áreas que podem exigir ajustes adicionais.
