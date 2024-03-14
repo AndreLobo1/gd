@@ -109,6 +109,18 @@ Ao cumprir esses requisitos, você estará pronto para configurar um ambiente de
 - **Status:** Pendente de correção.
 - **Observações:** Parece haver problemas com as colisões definidas para esses objetos, resultando em comportamento não esperado do personagem.
 
+### Melhorias Futuras Relacionadas aos Problemas de Colisões
+
+1. **Refinamento das Colisões:** Realizar uma análise detalhada das colisões no jogo e fazer ajustes precisos para garantir que os objetos do cenário tenham colisões adequadas, evitando que o jogador possa atravessá-los ou ficar preso em áreas inapropriadas.
+
+2. **Implementação de Colisões Pixel-Perfect:** Considerar a implementação de colisões pixel-perfect para objetos no jogo, garantindo que a detecção de colisões seja feita com base na forma exata dos objetos, proporcionando uma experiência mais precisa e realista.
+
+3. **Testes Abrangentes de Colisões:** Realizar testes extensivos de colisões em diferentes cenários e condições de jogo para identificar e corrigir quaisquer problemas remanescentes, garantindo que todas as áreas do jogo tenham colisões consistentes e confiáveis.
+
+4. **Utilização de Ferramentas de Debugging:** Utilizar ferramentas de debugging e visualização de colisões para facilitar a identificação de problemas e a depuração das colisões no jogo, permitindo uma resolução mais rápida e eficiente dos problemas encontrados.
+
+Essas melhorias futuras visam resolver os problemas identificados com as colisões no jogo, garantindo uma experiência de jogo mais suave, imersiva e livre de falhas para os jogadores.
+
 ### Conclusão
 Os casos de teste apresentados nesta seção ofereceram uma visão abrangente do funcionamento do jogo, fornecendo feedbacks valiosos para o aprimoramento contínuo do projeto. Embora tenhamos alcançado sucesso em muitos testes, alguns problemas foram identificados durante o processo, destacando áreas que podem exigir ajustes adicionais.
 
