@@ -106,7 +106,7 @@ Ao cumprir esses requisitos, você estará pronto para configurar um ambiente de
 
 ###  Problemas Encontrados
 
-### Problema de Colisão com Estruturas do Mapa
+### 1. Problema de Colisão com Estruturas do Mapa
 - **Descrição:** Durante o teste de colisões no jogo, o personagem foi capaz de atravessar certas estruturas do mapa, como árvores, arbustos e NPCs.
 - **Gravidade:** Média
 - **Status:** Pendente de correção.
