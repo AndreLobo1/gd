@@ -85,12 +85,6 @@ Antes de iniciar os testes, é necessário configurar adequadamente o ambiente d
 - **Status:** Pendente de correção.
 - **Observações:** Parece haver problemas com as colisões definidas para esses objetos, resultando em comportamento não esperado do personagem.
 
-### Problema de Exibição da Foto do NPC do Escritório Unilever
-- **Descrição:** Durante o teste de colisões no jogo, o NPC apresentou a sua foto ao lado do balão de fala como o esperado, porém a foto está cortada.
-- **Gravidade:** Baixa
-- **Status:** Pendente de correção.
-- **Observações:** Parece haver problemas com a foto do NPC, resultando em comportamento não esperado do mesmo.
-
 ### Conclusão
 Os casos de teste apresentados nesta seção ofereceram uma visão abrangente do funcionamento do jogo, fornecendo feedbacks valiosos para o aprimoramento contínuo do projeto. Embora tenhamos alcançado sucesso em muitos testes, alguns problemas foram identificados durante o processo, destacando áreas que podem exigir ajustes adicionais.
 
